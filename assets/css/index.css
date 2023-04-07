@@ -572,7 +572,6 @@ header {
   margin: 90px auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 
 .services-item {
@@ -1446,6 +1445,10 @@ footer h4 {
   }
   .slide-right {
     transform: translate(-50%, -75%);
+  }
+
+  .services{
+    flex-wrap: wrap;
   }
 
   .services-item {
